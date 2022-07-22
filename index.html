@@ -1,26 +1,60 @@
 <!DOCTYPE html>
-<html> 
-<header>
-    <img src="Images/event-management.png">
-    <p> Sydney Harumi</p>
-    <ul>
-        <li>Work</li>
-        <li>Skills</li>
-        <li>About</li>
-        <li>Contact</li>
-    </ul>
-</header>
+<html lang="en"> <!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
 
-<section>
-    <div>
-        <h1>Hi, I'm Sydney!
-            I'm a UX/UI designer with a background in graphic design.
-        </h1>
-        <p>I am passionate about connecting people and technology through simple and delightful interface design. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Consectetur cursus ullamcorper egestas nullam ipsum ornare euismod eu.</p>
-        <p>I am currently accepting freelance work. Feel free to reach out!</p>
-        <button type="button">Contact Me!</button>
-        <img src="Images/D50A1705-3312-4F3E-A8BC-29E641411A38.jpg"
-    </div> 
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Porfolio</title>
+</head>
+<body>
+    <header id="navigation">
+        <div class="logo">
+            <img class="logo" src="Images/name cursive.png" alt="logo">
+        </div>
+
+        <nav>
+            <ul class="navLinks">
+                <li><a href="#">Work</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Skills</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </nav>
+        <a class="cta" href="#"><button>Download Resume</button></a>
+    </header>
+
+    <!--home section start-->
+
+<section class="heroImg">
+    <div class="content">
+        <h1 style="font-size:36px; color:black; font-weight:bold; font-family:'Poppins">Hi! I'm<span style="color:#FF896A"> Sydney</span>
+        <h2 id="introLine2">I'm a UX/UI designer with a background in graphic design.</h2>
+        <p id="aboutMe">I am passionate about connecting people and technology through simple and delightful interface design. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Consectetur cursus ullamcorper egestas nullam ipsum ornare euismod eu.</p>
+        <p id="freelance"> I am currently accepting freelance work. Feel free to <a class="reachOut">reach out!</a></p>
+    </div>
+
+    <div class="picture">
+        <img src="Images/D50A1705-3312-4F3E-A8BC-29E641411A38.jpg" alt-="profilePic" class="profilePic">
+    </div>
 </section>
 
+<section id="projects">
+    <div class=projectLine1>
+        <img src="/Images/Healtheory case study.png" alt="healtheory" class="healtheory">
+        <img src="/Images/PIO_merch_mockup.png" alt="pio" class="pio">
+        <img src="/Images/USPS truck background.png" alt="usps" class="pio">
+    </div>
+</section>
+
+
+</body>
 </html>

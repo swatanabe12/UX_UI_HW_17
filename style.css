@@ -1,0 +1,174 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins');
+
+
+#navigation {
+    vertical-align: top;
+    max-width: 1400px;
+    padding: 5 80;
+    margin:auto;
+    justify-content: center;
+    
+}
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    background-color: white;
+}
+
+li, a {
+    font-family: "poppins", sans-serif;
+    font-weight: 500;
+    font-size: 14px;
+    color: #373737;
+    text-decoration: none;
+}
+
+button {
+    font-family: "poppins", sans-serif;
+    font-weight: 600;
+    font-size: 12px;
+    color: #373737;
+    text-decoration: none;
+}
+
+header {
+    display:flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 30px 10%;
+}
+
+.logo {
+    margin-right:auto;
+    cursor: pointer;
+    height: 50px;
+    width: auto;
+}
+
+.navLinks {
+    list-style: none;
+}
+
+.navLinks li {
+    display: inline-block;
+    padding: 0px 10px;
+}
+
+.navLinks li a {
+    transition: all 0.3s ease 0s;
+}
+
+.navLinks li a:hover {
+    color: #FF896A;
+}
+
+button {
+    margin-left: 20px;
+    padding: 8px 16px;
+    background-color: #FF896A;
+    color: white;
+    border: white;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+}
+
+button:hover {
+    padding: 8px 16px;
+    background-color: white;
+    color: #FF896A;
+    border: #FF896A;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+}
+
+.maxWidth {
+    max-width: 1400px;
+    padding: 0 80px;
+    margin:auto;
+}
+
+/* home section style */
+
+.heroImg {
+    display: flex;
+    height: 60px;
+    padding: 25px;
+    max-width: 1400px;
+}
+
+#content {
+    height: 600px;
+    width: 50px;
+    margin-left: 50px;
+    float: left;
+}
+
+.picture {
+    float: right;
+    padding:25px;
+
+}
+.profilePic {
+    height: 400px;
+    border-radius: 15px;
+}
+
+.reachOut {
+    text-decoration: underline;
+    color:#FF896A
+}
+
+#introLine {
+    font-family: 'poppins';
+    font-size: 36px;
+}
+
+.sydney {
+    font-family: 'poppins';
+    font-size: 36px;
+    color:#FF896A;
+    font-style: italic;
+}
+
+#introLine2 {
+    font-family: 'poppins';
+    font-size: 36px;
+}
+
+#aboutMe {
+    font-family: 'poppins';
+    font-size: 16px;
+    font-weight: 3px;
+    padding-top: 20px;
+}
+
+#freelance {
+    font-family: 'poppins';
+    font-size: 16px;
+    font-weight: 3px;
+    padding-top: 20px;
+}
+
+
+.projectLine1 {
+    display: flex;
+    width:100%;
+    justify-content: center;
+    padding: 25px;
+    margin-top: 450px;
+
+}
+.healtheory {
+    height:250px;
+}
+
+.pio {
+    height: 250px;
+}
+
+.usps {
+    height: 250px;
+}
