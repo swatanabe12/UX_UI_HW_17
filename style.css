@@ -94,10 +94,11 @@ button:hover {
 
 .heroImg {
     display: flex;
-    height: 60px;
+    height: auto;
     padding: 25px;
     max-width: 1400px;
 }
+
 
 #content {
     height: 600px;
@@ -152,23 +153,36 @@ button:hover {
     padding-top: 20px;
 }
 
+#projects{
+    background-image: url(/Images/pexels-gradienta-7130557.jpg);
+    background-size:cover;
+    background-repeat: no-repeat;
 
+}
 .projectLine1 {
     display: flex;
-    width:100%;
+    justify-content: space-around;
+    max-width: 1400px;
     justify-content: center;
     padding: 25px;
-    margin-top: 450px;
+    margin-top: 50px;
 
 }
 .healtheory {
     height:250px;
+    padding-right: 5px;
+    border-radius: 15px;
 }
 
 .pio {
     height: 250px;
+    padding-left: 5px;
+    padding-right: 5px;
+    border-radius: 15px;
 }
 
 .usps {
     height: 250px;
+    padding-left: 5px;
+    border-radius: 15px;
 }
